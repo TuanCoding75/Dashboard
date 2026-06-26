@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ListTask from "../ListTask/ListTask";
 import Formular from "../Formular/Formular";
 import Research from "../Research/Research";
-import Nav from "../Nav/Nav";
+import Nav from "../Nav/NavBar";
 
 interface Task {
   id: number;
