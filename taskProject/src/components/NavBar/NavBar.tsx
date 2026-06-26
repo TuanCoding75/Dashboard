@@ -1,18 +1,3 @@
-// import { Link } from "react-router-dom";
-
-// export default function Nav() {
-//   return (
-//     <>
-//       <Link to={"/tasks"} aria-label="tasks">
-//         Tâches
-//       </Link>
-//       <Link to={"/tasks"} aria-label="tasks">
-//         Creation Client
-//       </Link>
-//     </>
-//   );
-// }
-
 import {
   Disclosure,
   DisclosureButton,
@@ -23,6 +8,7 @@ import {
   MenuItems,
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import "../../index.css";
 
 const navigation = [
   { name: "Exercices TypeScript", href: "/exercices", current: true },

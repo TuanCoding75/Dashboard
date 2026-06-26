@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ListTask from "../ListTask/ListTask";
 import Formular from "../Formular/Formular";
 import Research from "../Research/Research";
-import Nav from "../Nav/NavBar";
+import Nav from "../NavBar/NavBar";
 
 interface Task {
   id: number;
@@ -69,7 +69,7 @@ export default function Task() {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Research onReasearch={onReasearch} searchTask={searchTask} />
       <Formular submitFormular={onSubmit} />
       <ListTask listTask={task} onDone={onDone} onDelete={onDelete} />

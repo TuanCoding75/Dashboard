@@ -1,4 +1,4 @@
-import NavBar from "../Nav/NavBar";
+import NavBar from "../NavBar/NavBar";
 import { useRef } from "react";
 
 //#region ex1
@@ -137,10 +137,10 @@ export default function Exercices() {
   //#endregion
   return (
     <>
-      <NavBar />
       <button onClick={() => scrollToSection(introRef)}>Intro</button>
       <button onClick={() => scrollToSection(exercice1Ref)}>Exercice 1</button>
       <button onClick={() => scrollToSection(exercice2Ref)}>Exercice 2</button>
+      <a href="/exercices2">Exercices2</a>
       <div style={{}} />
       <div ref={introRef} className="mt-2">
         <h3>Intro:</h3>
@@ -183,7 +183,8 @@ export default function Exercices() {
       <div ref={exercice2Ref}>
         <h1>Exercice 2</h1>
       </div>
-      manipulation de promesses api manipulations donénes
+      Dashboard avec tri des données
+      <br></br>function asynchronepromesses et api
     </>
   );
 }
